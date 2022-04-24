@@ -10,8 +10,7 @@ import { routing } from './app.routes';
     ...
     routing
   ],
-  ...
-Copy
+
 
 
 

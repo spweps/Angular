@@ -53,6 +53,13 @@
 </form>
 
 </div>
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+  $scope.x1 = "Phone";
+  $scope.x2 = angular.isNumber($scope.x1);
+});
+</script>
 
 <script src= "myUsers.js"></script>
 
